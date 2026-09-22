@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base theme for AnimalApps -->
+    <style name="Theme.AnimalApps" parent="Theme.DeviceDefault.Light">
+        <!-- Color overrides -->
+        <item name="colorPrimary">@color/animal_primary</item>
+        <item name="colorPrimaryDark">@color/animal_primary_dark</item>
+        <item name="colorAccent">@color/animal_accent</item>
+        <item name="colorBackground">@color/animal_background</item>
+        <item name="colorForeground">@color/animal_foreground</item>
+
+        <!-- Optional: set light/dark mode -->
+        <item name="isLightTheme">true</item>
+
+        <!-- Text styles -->
+        <item name="textAppearance">@style/TextAppearance.AnimalApps</item>
+        <item name="textAppearanceInverse">@style/TextAppearance.AnimalApps.Inverse</item>
+
+        <!-- Shape/Drawable overrides -->
+        <item name="android:windowBackground">@drawable/animal_background_shape</item>
+    </style>
+</resources>
